@@ -1,4 +1,4 @@
-export default function ChatPage() {
+import ChatInput from "../../../components/ChatInput";export default function ChatPage() {
   return (
     <main
       style={{
@@ -27,3 +27,4 @@ export default function ChatPage() {
     </main>
   );
 }
+<ChatInput />
