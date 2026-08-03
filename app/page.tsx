@@ -22,9 +22,7 @@ export default function Home() {
           All in One AI Platform
         </p>
 
-        <button>
-  Get Started
-</button> <a
+        <a
   href="/chat"
   style={{
     marginTop: "30px",
