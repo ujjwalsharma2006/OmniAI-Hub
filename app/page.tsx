@@ -22,20 +22,18 @@ export default function Home() {
           All in One AI Platform
         </p>
 
-        <button
-          style={{
-            marginTop: "30px",
-            padding: "14px 30px",
-            background: "#2563eb",
-            color: "#fff",
-            border: "none",
-            borderRadius: "12px",
-            fontSize: "18px",
-          }}
-        >
-          Get Started
-        </button>
-      </main>
-    </>
-  );
-}
+        <button>
+  Get Started
+</button> <a
+  href="/chat"
+  style={{
+    marginTop: "30px",
+    padding: "14px 30px",
+    background: "#2563eb",
+    color: "#fff",
+    borderRadius: "12px",
+    textDecoration: "none",
+  }}
+>
+  Get Started
+</a>
