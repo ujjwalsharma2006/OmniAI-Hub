@@ -11,18 +11,21 @@ export default function Home() {
         flexDirection: "column",
       }}
     >
-      <h1>🚀 OmniAI Hub</h1>
-      <p>All-in-One AI Platform</p>
+      <h1 style={{ fontSize: "48px" }}>🚀 OmniAI Hub</h1>
+
+      <p style={{ marginTop: "15px", fontSize: "20px" }}>
+        All in One AI Platform
+      </p>
 
       <button
         style={{
-          marginTop: 20,
-          padding: "12px 24px",
-          borderRadius: 10,
-          border: "none",
+          marginTop: "30px",
+          padding: "14px 30px",
           background: "#2563eb",
-          color: "white",
-          cursor: "pointer",
+          color: "#fff",
+          border: "none",
+          borderRadius: "12px",
+          fontSize: "18px",
         }}
       >
         Get Started
